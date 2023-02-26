@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New York TImes</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Noto+Serif+Khojki:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/859a71d8f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page-container">
+    <div class="top-nav">
+        <div class="topleft">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="topmid">
+            <p>U.S</p>
+            <p>INTERNATIONAL</p>
+            <p>CANADA</p>
+            <p>ESPAÑOL</p>
+            <p>中文</p>
+        </div>
+        <div class="topright">
+            <button class="sub">SUBSCRIBE FOR $1/WEEK</button>
+            <button class="login">LOG IN</button>
+        </div>
+    </div>
+            <div class="mid-nav">
+                <div class="stats">
+                    <p class="date">Friday, February 10, 2023</p>
+                     <p class="paper">Today's Paper</p>
+                 </div>
+                 <img class="title" src="data:image/png;base64,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" alt="logo">
+            <div class="weather">
+                <i class="fa-solid fa-sun"></i>
+                <p class="temp">55&deg;F</p>
+                <p class="temp">57&deg;</p>
+                <p class="temp">35&deg;</p>
+            </div>
+            </div>
+            <div class="sections">
+                <p>World</p>
+                <p>U.S</p>
+                <p>Politics</p>
+                <p>N.Y</p>
+                <p>Business</p>
+                <p>Opinion</p>
+                <p>Science</p>
+                <p>Health</p>
+                <p>Sports</p>
+                <p>Arts</p>
+                <p>Books</p>
+                <p>Style</p>
+                <p>Food</p>
+                <p>Travel</p>
+                <p>Magazine</p>
+                <p>Real Estate</p>
+                <p>|</p>
+                <p>Cooking</p>
+                <p>The Athletic</p>
+                <p>Wirecutter</p>
+                <p>Games</p>
+            </div>
+            <hr>
+            <hr>
+                <div class="content3">
+                    <div class="chinese-spy-balloon">
+                        <p>A balloon flew over America. This 
+                            balloon was reported to be a Chinese Spy Balloon. 
+                            The US says the spy balloon "was clearly for intelligience suvelliance"
+                        </p>
+                        <img src="https://cdn.discordapp.com/attachments/1073396485812658267/1073813825108844704/9k.png" alt="Spy Balloon">
+                    </div>
+                    <div class="turkey-earthquake">
+                        <p>Earthquake in Turkey is more devestating than ever seen.</p>
+                        <img class="earthquake" src="https://static01.nyt.com/images/2023/02/11/world/middleeast/11quake-ledeall-fader-slide-90SN/11quake-ledeall-fader-slide-90SN-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale" alt="Earthquake">
+                    </div>
+                    <div class="train-wreck">
+                        <p>A train crashes in Ohio, causing massive damage</p>
+                        <img src="https://s7d1.scene7.com/is/image/CENODS/10106-leadcon-train?$responsive$&wid=700&qlt=90,0&resMode=sharp2" alt="crashed train">
+                    </div>
+                    <div class="hogwarts">
+                      <p>
+                        Hogwarts Legacy, a new video game, is the latest battleground over
+                        J.K. Rowlings comments on transgender issues.
+                      </p>
+                      <img
+                        src="https://static01.nyt.com/images/2023/02/11/arts/08hogwarts-legacy/08hogwarts-legacy-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        alt=""
+                      />
+                    </div>
+                    <div class="america">
+                      <p>There Is No Dignity in This Kind of America</p>
+                      <img
+                        src="https://static01.nyt.com/images/2023/02/10/multimedia/10bouie-1-gkzh/10bouie-1-gkzh-square320-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        alt=""
+                      />
+                    </div>
+                    <div class="piano">
+                      <p>World-renowned pianist to perform in Savannah on Saturday</p>
+                      <img
+                        src="https://www.wsav.com/wp-content/uploads/sites/75/2023/02/World-renownedpianistStephenHough.png?w=640&h=360&crop=1"
+                        alt=""
+                      />
+                    </div>
+                    <div class="fetterman">
+                      <p>
+                        Fetterman discharged from hospital after two days of tests and
+                        observation
+                      </p>
+                      <img
+                        src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-320x320,f_auto,q_auto:best/rockcms/2023-02/230210-john-Fetterman-ew-517p-7c77ce.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="children">
+                      <p>
+                        Children rescued from ruins days after earthquake, but death toll .
+                        . .
+                      </p>
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        alt=""
+                      />
+                    </div>
+                    <div class="irs">
+                      <p>IRS won't tax most state inflation relief payments</p>
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        alt=""
+                      />
+                    </div>
+                    <div class="florida">
+                      <p>
+                        Florida Legislature expands Ron DeSantis' program to fly migrants to
+                        blue states
+                      </p>
+                      <img
+                        src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-320x320,f_auto,q_auto:best/rockcms/2022-09/AP22258109589275-4d5be6.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

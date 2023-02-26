@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-nav {
+    width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.topright {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: cadetblue;
+}
+.topmid {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.topmid li p:hover {
+    background-color: #f7f7f7f7;
+}
+
+.topleft {
+    width: 50px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.sub {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(73, 108, 153);
+    justify-content: flex-end;
+}
+
+.login {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(73, 108, 153);
+    justify-content: flex-end;
+}
+
+.mid-nav {
+width: 2000px;
+width: 100%;
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
+display: flex;
+}
+
+.title {
+    align-items: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Babylonica', cursive;
+}
+
+.stats {
+    justify-content: left;
+    font-size: 12px;
+}
+
+.weather {
+    width: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+.sections {
+    width: 1150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.temp {
+    font-size: 15px;
+}
+
+.content3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 1fr;
+}
+
+.content3 img {
+    height: 400px;
+    width:  469px;
+    margin: 20px;
+}
+
+.chinese-spy-balloon {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.earthquake {
+  border-bottom: 1px solid gray;
+}
+
+.train-wreck {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.hogwarts {
+  border-bottom: 1px solid gray;
+}
+
+.america {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.piano {
+  border-bottom: 1px solid gray;
+}
+
+.fetterman {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.children {
+  border-bottom: 1px solid gray;
+}
+
+.irs {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.florida {
+  border-bottom: 1px solid gray;
+}
